@@ -1,0 +1,186 @@
+*
+{
+	font-family: Arial;
+}
+body
+{
+	background: #edeef0;
+	margin: 0;
+}
+#MainHeader
+{
+	background-color: #507299;
+	padding: 10px;
+	padding-left: 120px;
+	margin-bottom: 15px;
+}
+.Wrapper
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 1200px;
+	margin: 0 auto;
+
+
+}
+.CentreWrapper
+{
+	margin: auto;
+	margin-left: 100px;
+}
+.TextBox
+{
+	position: relative;
+	background-color: white;
+	width: 500px;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: justify;
+	box-shadow: 0px 0px 5px gray;
+	margin-bottom: 20px;
+}
+
+#TextLine
+{
+	border-bottom: 3px solid #d0d0d0;
+}
+p::selection
+{
+	color: green;
+	background-color:#e1e5eb;
+}
+#List
+{
+	text-align: left;
+	background-color: inherit;
+	color: #507299;
+	margin-top: -15px;
+
+	
+}
+ul
+{
+	display: table;
+}
+li
+{
+	cursor: pointer;
+	list-style-type: none;
+	width: 178px;
+	padding: 10px;
+}
+li:hover
+{
+	background-color: #c8d2e6;
+	
+}
+.Button
+{
+	color: #507299;
+	border: none;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 14px;
+    margin-left: 14px;
+}
+#Like
+{
+	position: absolute;
+	left: 0;
+}
+#Comment
+{
+	position: absolute;
+	right: 0;
+}
+
+#image
+{
+	width: inherit;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+#BlockHeaderLine
+{
+	position: absolute;
+	width: 100%;
+	margin-left: -20px;
+	border-bottom: 3px solid #d0d0d0;
+}
+
+#FirstInformationBoard
+{
+	width: 150px;
+	text-align: left;
+	position: fixed;
+	height: auto;
+	margin-left: 1250px;
+}
+#SecondInformationBoard
+{
+	width: 150px;
+	text-align: left;
+	position: fixed;
+	height: auto;
+	margin-left: 1250px;
+	margin-top: 200px;
+}
+
+#SomeNewHeader
+{
+	font-weight: bold;
+	width: 100px;
+}
+
+#Information
+{
+	background-color: #edeef0;
+}
+
+#Footer
+{
+	background-color: white;
+	color: gray;
+	margin-bottom: -15px;
+	text-align: center;
+}
+
+@media (max-width: 850px)
+{
+	#List
+	{
+		margin: auto;
+		width: 420px;
+		position: static;
+	}
+	ul
+	{
+		margin: 0;
+		padding: 4px;
+	}
+	
+	li
+	{
+		white-space: normal;
+		word-break:break-all;
+		line-height: 3.3;
+		padding: 10px;
+		margin-right: 5px;
+		list-style-type: none;
+		display: inline;
+	}
+
+	.CentreWrapper
+	{
+		margin: 0 auto;
+	}
+	.Wrapper
+	{
+		margin: auto;
+		width: 100%;
+	}
+
+}
